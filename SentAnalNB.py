@@ -111,20 +111,6 @@ prob_words_neg = train_neg_counts.map(lambda x: add_values_tuple(x, count_neg_to
 #Viewing the probability of each word in negative dataset    
 #print prob_words_neg    
 
-'''
-#Calculating the probability of each class #POS and #NEG
-
-train_pos_count = train_pos.count()
-train_neg_count = train_neg.count()
-
-PROB_POS_CLASS = float(train_pos_count/(train_pos_count + train_neg_count))
-
-PROB_NEG_CLASS = float(train_neg_count/(train_pos_count + train_neg_count))
-
-#Viewing the probabilities of class
-print PROB_POS_CLASS
-print PROB_NEG_CLASS
-'''
 ######### Test POS ########
 
 #Reading the positive test dataset from IMDB
